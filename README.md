@@ -10,6 +10,7 @@ The data are available in 3 languages on the website [OLHE PARA A FOME (LOOK AT 
 
 ![Responsice Food Donation Brazil]()
 
+----------
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -72,6 +73,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - Another feature idea
 
+----------  
 ## Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -94,7 +96,32 @@ If this section grows too long, you may want to split it off into a separate fil
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-## Deployment
+----------
+# Deployment
+
+### SiteMap
+
+![SiteMap of Food Donation Brazil](./asset/media/sitemap.jpg)
+
+### WireFrame 
+
+#### Home
+
+![Home page of Food Donation Brazil Responsive](./asset/media/home.jpg)
+
+#### About us
+
+![About us page of Food Donation Brazil](./asset/media/aboutus.jpg)
+
+#### NGOs (Non-governmental organization)
+
+![NGOs page with some NGOs in Brazil that work with it](./asset/media/ngos.jpg)
+
+#### Contact us
+
+![Contact us page - Form to contact us if interested to help](./asset/media/contactus.jpg)
+
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
@@ -105,7 +132,7 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
-
+----------
 ## Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
@@ -126,6 +153,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
+----------
 ## Other General Project Advice
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
