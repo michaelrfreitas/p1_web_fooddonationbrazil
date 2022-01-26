@@ -1,58 +1,8 @@
-@media screen and (max-device-width:820px), screen and (max-width:820px){
-.logo  {
-    width: 30%;
-    height: inherit;
-    padding: 1em;
-} 
-
-.picture {
-    width: 90%;
-    padding: 1em;
-    text-align: center;
-    
-}
-
-header {
-    display: flex;
-    align-items: center;
-    margin-top: 0%;
-  }
-
-  div {
-    margin-top: 0%;
-    background-color: #E0E0E0; 
-  }
-
-}
-@media screen and (min-device-width:821px), screen and (min-width:821px){
-.logo  {
-    width: 10%;
-    height: inherit;
-    padding: 1em;
-} 
-
-.picture {
-    width: 35%;
-    padding: 1em;
-}
-
-div {
-    display: flex;
-    align-items: center;
-    margin-top: 0%;
-    background-color: #C0C0C0; 
-  }
-
-  header {
-    display: flex;
-    align-items: center;
-    margin-top: 0%;
-  }
-
-}
-
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
 }
 
 h1 {
@@ -60,21 +10,89 @@ h1 {
 }
 
 nav {
+    text-align: center;
 }
 
 ul {
-    
+    list-style: none;
+    display: inline-flex;
+    padding-inline-start: 0;
+}
+
+ul li {
+    padding: 0.5em;
+    border-style:solid;
+    border-color: yellow;
+    background-color: #004e56;
+}
+
+ul li a {
+    color:white;
+}
+
+ul li:hover {
+    background-color: black ;  
 }
 
 .texthome {
     text-align: justify;
     padding: 1em;
-    width: 95%;
+    width: 90%;
     text-justify: inter-word;
+    margin: 0;
 }
 
 footer {
     text-align: center;
+    font-size: x-small;
 }
 
+footer a {
+    text-decoration: none;
+    color:#004e56;
+    font-weight: normal; 
+}
 
+.logo {
+    width: 30%;
+    height: inherit;
+    padding: 1em;
+}
+
+.social {
+    width: 40px;
+    height: inherit;
+    padding: 1em;
+}
+
+.picture {
+    width: 90%;
+    padding: 1em;
+    text-align: center;
+
+}
+
+header {
+    margin-top: 0%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 1.5em;
+    color: #004e56;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 0%;
+}
+
+a {
+    text-decoration: none;
+    color:#004e56;
+    font-weight: bold;
+}
