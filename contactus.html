@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get help to people on severe food insecurity that affects 9% of the population (19 million people) in Brazil.">
+    <meta name="keywords" content="food, donation, donate, brazil, starving">
+    <meta name="author" content="Michael Freitas">
+    <link rel="stylesheet" href="./asset/css/style.css">
     <title>Food Donation Brazil</title>
 </head>
+
 <body>
-    
+    <header>
+        <div id="title">
+            <img id="logo" src="./asset/media/fdb.png" alt="Food Donation Brazil Logo.">
+            <h1>Food Donation Brazil</h1>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutus.html">About us</a></li>
+                    <li><a href="./ngos.html">NGOs</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="subtitle">
+            <h2>Contact us</h2>
+            <form>
+                <fieldset>
+                    <legend>Send your details to help</legend>
+                    <label for="name">Name: </label>
+                    <input class="field-lg" type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email: </label>
+                    <input class="field-lg" type="email" id="email" name="email" required>
+                    <p>How would you like to help> (You can select more than one option).</p>
+                    <label for="volunteer">Volunteer</label>
+                    <input class="field-sm" type="checkbox" name="volunteer" id="volunteer">
+                    <label for="money">Money</label>
+                    <input class="field-sm" type="checkbox" name="money" id="money">
+                    <label for="food">Food</label>
+                    <input class="field-sm" type="checkbox" name="food" id="food">
+                    <br>
+                    <label for="mobile">Mobile:<small> (123-456-7890)</small></label>
+                    <input class="field-md" type="tel" name="mobile" id="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <select class="field-lg" name="time" id="time">
+                        <option value="">Best time to talk</option>
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                        <option value="any">Anytime</option>
+                    </select>
+                    <br>
+                    <div id="btn-submit">
+                    <input type="submit">
+                </div>
+                    </fieldset>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <a href="https://www.facebook.com/" aria-label="Facebook website" target="_blank"><img class="social"
+                src="./asset/media/facebook.png" alt="Facebook icon logo"></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram website" target="_blank"><img class="social"
+                src="./asset/media/instagram.png" alt="Instagram icon logo"></a>
+        <a href="https://twitter.com/" aria-label="Twitter website" target="_blank"><img class="social"
+                src="./asset/media/twitter.png" alt="Twitter icon logo"></a>
+        <a href="https://www.youtube.com/" aria-label="Youtube website" target="_blank"><img class="social"
+                src="./asset/media/youtube.png" alt="Youtube icon logo"></a>
+        <p>Copyright © Food Donation Brazil, 2022.</p>
+    </footer>
 </body>
+
 </html>
