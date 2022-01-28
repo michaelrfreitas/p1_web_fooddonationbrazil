@@ -42,6 +42,15 @@ ul li:hover {
     margin: 0;
 }
 
+ol {
+    padding-inline-start: 50px;
+    padding-inline-end: 30px;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+}
+
 footer {
     text-align: center;
     font-size: x-small;
