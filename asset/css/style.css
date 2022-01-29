@@ -85,6 +85,8 @@ footer a {
 
 header {
     margin-top: 0%;
+    background-color: white;
+    border-bottom-style: solid;
 }
 
 #title {
@@ -139,6 +141,11 @@ article p {
 article h1 {
     font-size: 1em;
     text-align: left;
+}
+
+article header {
+    background-color: yellow;
+    border-bottom-style: none;
 }
 
 .contact {
