@@ -1,5 +1,5 @@
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
     background-color: yellow;
@@ -21,17 +21,17 @@ ul {
 
 ul li {
     padding: 0.5em;
-    border-style:solid;
+    border-style: solid;
     border-color: yellow;
     background-color: #004e56;
 }
 
 ul li a {
-    color:white;
+    color: white;
 }
 
 ul li:hover {
-    background-color: black ;  
+    background-color: black;
 }
 
 .texthome {
@@ -58,12 +58,13 @@ footer {
 
 footer a {
     text-decoration: none;
-    color:#004e56;
-    font-weight: normal; 
+    color: #004e56;
+    font-weight: normal;
 }
 
 #logo {
     width: 30%;
+    max-width: 180px;
     height: inherit;
     padding: 1em;
 }
@@ -89,6 +90,7 @@ header {
 #title {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #title h1 {
@@ -103,15 +105,15 @@ main {
 
 a {
     text-decoration: none;
-    color:#004e56;
+    color: #004e56;
     font-weight: bold;
 }
 
 .ref {
     text-decoration: none;
-    font-weight: normal; 
+    font-weight: normal;
     font-size: x-small;
-    margin:0;
+    margin: 0;
     padding-left: 2em;
     font-style: italic;
 }
@@ -119,7 +121,6 @@ a {
 #subtitle h2 {
     font-size: 1em;
     padding: 1em;
-    width: 90%;
     margin: 0;
 }
 
@@ -132,7 +133,7 @@ article {
 }
 
 article p {
-    margin:0;
+    margin: 0;
 }
 
 article h1 {
@@ -142,17 +143,17 @@ article h1 {
 
 .contact {
     font-size: small;
-    margin:0;
+    margin: 0;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
 
 article a {
     padding: 0.5em;
-    border-style:solid;
+    border-style: solid;
     border-color: yellow;
     background-color: black;
-    color:white
+    color: white
 }
 
 article a:hover {
@@ -165,8 +166,8 @@ fieldset {
 }
 
 .map {
-    width:95%; 
-    height:300px;
+    width: 95%;
+    height: 300px;
     border-style: none;
 }
 
@@ -191,13 +192,53 @@ fieldset {
 
 #btn-submit input {
     padding: 1em;
-    border-style:solid;
+    border-style: solid;
     border-color: yellow;
     background-color: black;
-    color:white;
+    color: white;
     font-weight: bold;
 }
 
 #btn-submit input:hover {
     background-color: #004e56;
+}
+
+@media screen and (min-width: 821px) {
+    #logo {
+        width: 180px;
+        height: inherit;
+        padding: 1em;
+
+    }
+
+    #title h1 {
+        font-size: 2.5em;
+        color: #004e56;
+        font-weight: bold;
+    }
+
+    #desktop {
+        display: flex;
+        align-items: center;
+    }
+
+    .picture {
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+        padding-bottom: 0;
+
+    }
+
+    .ref {
+        width: 60%;
+        padding-right: 1em;
+    }
+
+    #subtitle {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
 }
