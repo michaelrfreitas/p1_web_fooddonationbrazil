@@ -53,7 +53,7 @@ ol {
 
 footer {
     text-align: center;
-    font-size: x-small;
+    font-size: small;
 }
 
 footer a {
@@ -114,7 +114,7 @@ a {
 .ref {
     text-decoration: none;
     font-weight: normal;
-    font-size: x-small;
+    font-size: small;
     margin: 0;
     padding-left: 2em;
     font-style: italic;
