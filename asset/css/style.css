@@ -2,7 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
-    background-color: yellow;
+    background-color: rgb(253, 253, 80);
 }
 
 h1 {
@@ -144,7 +144,7 @@ article h1 {
 }
 
 article header {
-    background-color: yellow;
+    background-color: rgb(253, 253, 80);
     border-bottom-style: none;
 }
 
@@ -246,6 +246,14 @@ fieldset {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    body p {
+        font-size:18px;
+    }
+
+    ol {
+        font-size: 16px;
     }
 
 }
